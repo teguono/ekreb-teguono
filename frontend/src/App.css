@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1b1b2b; /* A subtle variation of the previous color to match with Vanderbilt theme */
+    color: #d8c29a; /* A subtle gold color for the text */
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding: 50px 0;
+    background-image: linear-gradient(to top, #1b1b2b, #121219); /* Fading to a slightly darker color for depth */
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 1rem;
+    margin: 10px;
+    border: none;
+    outline: none;
+}
+
+button {
+    background-color: #d8c29a; /* Applying the gold color to the button */
+    color: #1b1b2b; /* Using a dark color for text to contrast with gold */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #b3a78d; /* A slightly darker shade of gold for hover effect */
+}
+
+.Scoreboard {
+    border: 2px solid #d8c29a; /* Using the gold color for border */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.WordCard {
+    border: 2px solid #b3a78d; /* A slightly darker shade of gold for the WordCard border */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

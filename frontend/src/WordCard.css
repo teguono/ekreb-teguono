@@ -1,0 +1,16 @@
+.feedback {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #f1faee;
+}
+
+.feedback:contains("Correct") {
+    background-color: #2a9d8f;
+}
+
+.feedback:contains("Try again") {
+    background-color: #e76f51;
+}
