@@ -41,10 +41,10 @@ function App() {
 
     return (
         <div className="App">
-            <Title /> // Display title component
-            // Display the scoreboard with current score and total attempts
+            <Title /> {/*Display title component*/}
+            {/* Display the scoreboard with the current score and attempts */}
             <Scoreboard score={score} attempts={attempts} />
-            // Display the word card for user to guess the word
+            {/*Display the word card for user to guess the word*/}
             <WordCard 
                 scrambled={scrambledWord} 
                 original={originalWord} 
